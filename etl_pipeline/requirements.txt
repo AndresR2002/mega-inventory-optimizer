@@ -1,0 +1,13 @@
+pandas
+
+python-dotenv
+
+azure-storage-blob
+
+sqlalchemy
+psycopg2-binary
+
+prefect
+
+matplotlib
+seaborn
