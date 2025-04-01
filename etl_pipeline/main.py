@@ -71,5 +71,6 @@ load_csv_to_postgresql("output/logistica_cleaned.csv", "envios", id_columns=["en
 execute_sql_from_file("database/p_keys.sql")
 execute_sql_from_file("database/f_keys.sql")
 execute_sql_from_file("database/indexes.sql")
+execute_sql_from_file("database/check_dates.sql")
 print("✅ ¡Proceso de ETL completado!")
 
