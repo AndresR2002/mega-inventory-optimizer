@@ -18,8 +18,8 @@ def generate_time_dimension(sales_path, logistics_path, output_path):
         "hora": [pd.Timestamp(ts).time() for ts in unique_timestamps],
         "anio": [pd.Timestamp(ts).year for ts in unique_timestamps],
         "mes": [pd.Timestamp(ts).month for ts in unique_timestamps],
-        "día": [pd.Timestamp(ts).day for ts in unique_timestamps],
-        "día_nombre": [pd.Timestamp(ts).strftime('%A') for ts in unique_timestamps],
+        "dia": [pd.Timestamp(ts).day for ts in unique_timestamps],
+        "dia_nombre": [pd.Timestamp(ts).strftime('%A') for ts in unique_timestamps],
         "mes_nombre": [pd.Timestamp(ts).strftime('%B') for ts in unique_timestamps]
     })
 

@@ -75,8 +75,7 @@ def validate_customers_ids(df, existing_customers_ids):
 
     df = df[df['cliente_id'].isin(valid_customer_ids)].copy()
 
-    df.loc[:, 'cliente_id'] = df['cliente_id'].astype(int)
-
+    df['cliente_id'] = df['cliente_id'].astype(int)
     return df
 
 
