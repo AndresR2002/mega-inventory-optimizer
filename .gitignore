@@ -1,3 +1,5 @@
 *.env
 etl_pipeline/data/
 .idea/
+__pycache__/
+*.pyc
