@@ -1,0 +1,9 @@
+pandas
+dotenv
+matplotlib
+sqlalchemy
+scikit-learn
+shap
+xgboost
+python-dotenv
+ipywidgets
