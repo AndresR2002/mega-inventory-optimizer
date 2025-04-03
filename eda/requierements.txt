@@ -1,0 +1,9 @@
+pandas
+dotenv
+matplotlib
+sqlalchemy
+seaborn
+calmap
+python-dotenv
+ipywidgets
+locale
