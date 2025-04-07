@@ -4,7 +4,7 @@
 - Un pipeline de datos (ETL)
 - Análisis exploratorio de datos (EDA)
 - Un modelo predictivo de demanda
-- Una API REST para consulta y visualización
+- Una API REST para consultas
 - Un dashboard interactivo
 
 ---
@@ -33,7 +33,7 @@ Desarrollo y entrenamiento de un modelo de aprendizaje automático para la predi
 - `model.json` → Modelo entrenado.
 
 ### 4. API REST (`api_rest/`)
-Permite acceder a los datos procesados y al modelo predictivo a través de endpoints.
+Permite acceder a los datos procesados a través de endpoints.
 - `app/` → Implementación de la API con FastAPI.
 - `main.py` → Archivo principal para la ejecución de la API.
 - `requirements.txt` → Dependencias necesarias.
@@ -46,7 +46,7 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 La API está disponible públicamente para pruebas en: [Mega Inventory Optimizer API](https://mega-inventory-optimizer.onrender.com/docs)
 
 ### 5. Dashboard (`dashboard/`)
-Aplicación interactiva para la visualización de datos y reportes mediante Streamlit.
+Aplicación interactiva para la visualización de datos mediante Streamlit.
 - `pages/` → Secciones del dashboard.
 - `app.py` → Archivo principal del dashboard.
 - `requirements.txt` → Dependencias necesarias.
